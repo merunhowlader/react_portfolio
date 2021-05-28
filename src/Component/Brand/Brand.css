@@ -1,0 +1,26 @@
+ .single-brand{
+    border: 1px solid #201f1f17;
+    text-align: center;
+    padding: 1.8rem 0rem;
+    margin: .9rem 0;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform .2s ease;
+    align-items: center;
+    
+}
+ .single-brand img{
+    width: 50%;
+    
+}
+.ok .single-brand :hover{
+    box-shadow: 0px 10px 30px rgba(75, 205, 238, 0.938);
+    transform: scale(1.5);
+}
+ .ok .single-brand img:hover{
+    filter: brightness(1.2);
+}
+.brand-img img{
+    transform:translateY(-80px);
+}
